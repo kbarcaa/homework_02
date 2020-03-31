@@ -10,17 +10,18 @@ body{
     color: rgb(36, 110, 110);
 }
 
+
 .jumbotron{
     background-color: orange;
     color: rgb(36, 110, 110);
 }
 
 #learnMore{
-    margin-left: 10rem;
+    margin-left: 14rem;
 }
 
 #icon{
-    margin-left: 2rem;
+    margin:0;
 }
 
 
@@ -38,13 +39,33 @@ footer{
     }
 }
 
-@media screen and (max-width:768px) {
+/* screen sizes: 640, 768, 980 */
+
+@media screen and (max-width: 640px) {
     #blemon{
-        width: 600px;
-        height: 600px;
-        margin: 70px;
+         margin: 4.5rem;
+    }
+
+    #learnMore {
+        margin-left: 9rem;
     }
 }
+
+
+
+@media screen and (max-width: 768px) {
+    #blemon{
+        width: 450px;
+        height: 450px;
+    }
+    #icon1{
+        margin-left: 3rem;
+    }
+    #learnMore {
+        margin-left: 12rem;
+    }
+};
+
 
 
 
