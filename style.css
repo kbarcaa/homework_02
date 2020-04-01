@@ -25,6 +25,7 @@ body{
 }
 
 footer{
+    margin-top: 4rem;
     background-color: orange;
     padding: 1.5rem;
     border-top: 4px solid rgb(36, 110, 110);
@@ -41,6 +42,24 @@ input.form-control::placeholder, textarea.form-control::placeholder {
 }
 
 
+#caption{
+    margin-top: -3rem;
+    text-align: center;
+    border: 1px solid  #246e6e;
+    background-color: rosybrown;
+    font-weight: 700;
+}
+
+
+
+
+
+#portImgSign{
+    margin-left: 35px
+}
+
+
+
 /* 980px contact */
 @media screen and (min-width: 980px){
 
@@ -54,6 +73,10 @@ input.form-control::placeholder, textarea.form-control::placeholder {
         margin-top: 5rem;
     }
 };
+
+
+
+
 
 
 
