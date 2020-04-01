@@ -24,13 +24,41 @@ body{
     margin:0;
 }
 
-
 footer{
     background-color: orange;
     padding: 1.5rem;
     border-top: 4px solid rgb(36, 110, 110);
 }
 
+input.form-control::placeholder, textarea.form-control::placeholder {
+    opacity: 0.4;
+    color: purple;
+}
+
+.btn {
+    background-color: #246e6e;
+    border: none;
+}
+
+
+/* 980px contact */
+@media screen and (min-width: 980px){
+
+    #contact{
+        margin-right: 300px
+    }
+    footer{
+        background-color: orange;
+        padding: 1.5rem;
+        border-top: 4px solid rgb(36, 110, 110);
+        margin-top: 5rem;
+    }
+};
+
+
+
+    
+/* navbar */
 @media screen and (max-width: 768px) {
     #navbar-brand{
         width: 100%;
@@ -39,19 +67,18 @@ footer{
     }
 }
 
-/* screen sizes: 640, 768, 980 */
+
+
+/* About 640px, 768px, 980px */
 
 @media screen and (max-width: 640px) {
     #blemon{
          margin: 4.5rem;
     }
-
     #learnMore {
         margin-left: 9rem;
     }
 }
-
-
 
 @media screen and (max-width: 768px) {
     #blemon{
